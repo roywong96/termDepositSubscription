@@ -24,9 +24,9 @@
 
 # Exploratory Data Analysis
 
-![](https://github.com/roywong96/termDepositSubscription/blob/master/images/job_categories.png)
-![](https://github.com/roywong96/termDepositSubscription/blob/master/images/relational-plot.png)
-![](https://github.com/roywong96/termDepositSubscription/blob/master/images/correlation_matrix.png)
+<img src="https://github.com/roywong96/termDepositSubscription/blob/master/images/job_categories.png" width="50%" height="50%">
+<img src="https://github.com/roywong96/termDepositSubscription/blob/master/images/relational-plot.png" width="50%" height="50%">
+<img src="https://github.com/roywong96/termDepositSubscription/blob/master/images/correlation_matrix.png" width="50%" height="50%">
 
 # Model Building
 
