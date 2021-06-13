@@ -31,12 +31,14 @@ Classifier I tried using Scikit-learn are:
 
 - **K-Nearest Neighbors:** Lazy Learner as a baseline model
 
-<img src="https://github.com/roywong96/termDepositSubscription/blob/master/images/knn_performance.png" width="80" height="80">
+
+
+<img src="https://github.com/roywong96/termDepositSubscription/blob/master/images/knn_performance.png" width="50%" height="50%">
 
 - **Gaussian Naive Bayes:** Probability Based Learner as features will be independent to one another.
 
 
-<img src="https://github.com/roywong96/termDepositSubscription/blob/master/images/nb_performance.png" width="80" height="80">
+<img src="https://github.com/roywong96/termDepositSubscription/blob/master/images/nb_performance.png" width="50%" height="50%">
 
 
 - **Decision Tree:** Chosen with regards to the sparsity of the data and ideal for dealing with data containing multiple outliers.
