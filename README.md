@@ -5,7 +5,7 @@
 - Perform One-Hot Encoding for the categorical variables used for modeling.
 - Optimized K Nearest Neighbors, Bayesian Naive Bayes, Decision Tree and Random Forest Classifier using GridSearchCV to reach the best model.
 - A deep dive into data leakage to prevent target from leaking into models I chose for an accurate prediction.
-- Performance measure used to evaluate the models is the Area Under the Receiver Operating Characteristics (RUC) Curve.
+- Performance measure used to evaluate the models is the Area Under the Receiver Operating Characteristic (RUC) Curve.
 
 
 ## References:
