@@ -12,13 +12,18 @@
 **Python Version:** 3.8<br/>
 **Packages:** numpy, pandas, seaborn, matplotlib, Scikit-Learn<br/>
 **Data Source:**  UCI Machine Learning Repository [Bank Marketing Data Set](https://archive.ics.uci.edu/ml/datasets/Bank+Marketing)<br/>
-**Data Leakeage Article** [Data Leakage in Machine Learning](https://towardsdatascience.com/data-leakage-in-machine-learning-6161c167e8ba)<br/>
+**Data Leakeage Article:** [Data Leakage in Machine Learning](https://towardsdatascience.com/data-leakage-in-machine-learning-6161c167e8ba)<br/>
+**Standardize Age Group:** [Australian Bureau of Statistics](https://www.abs.gov.au/)<br/>
 
 # Data Cleaning/Pre-processing
 
-- Data is 
+- Duration column is removed as it highly affects the output target (e.g., if duration=0 then subscription='no')
+- pdays is clamped into a binary feature (i.e., 0 = not previously contacted; 1=contacted)
+- Descretizing the age into standard Age Group (i.e., Children (0-14); Teen (15-24); Adult (25-64); Senior (65+))
+- One-Hot Encoding performed on all the categorical features
 
 # Exploratory Data Analysis
+
 
 
 # Model Building
@@ -31,28 +36,28 @@ Classifier I tried using Scikit-learn are:
 
 - **K-Nearest Neighbors:** Lazy Learner as a baseline model
 
-<img src="https://github.com/roywong96/termDepositSubscription/blob/master/images/knn_performance.png" width="30%" height="30%">
+<img src="https://github.com/roywong96/termDepositSubscription/blob/master/images/knn_performance.png" width="40%" height="40%">
 
 - **Gaussian Naive Bayes:** Probability Based Learner as features will be independent to one another.
 
-<img src="https://github.com/roywong96/termDepositSubscription/blob/master/images/nb_performance.png" width="30%" height="30%">
+<img src="https://github.com/roywong96/termDepositSubscription/blob/master/images/nb_performance.png" width="40%" height="40%">
 
 
 - **Decision Tree:** Chosen with regards to the sparsity of the data and ideal for dealing with data containing multiple outliers.
 
-    <img src="https://github.com/roywong96/termDepositSubscription/blob/master/images/dt_performance_nottunned.png" width="30%" height="30%">
+    <img src="https://github.com/roywong96/termDepositSubscription/blob/master/images/dt_performance_nottunned.png" width="40%" height="40%">
 
     - **Further Fine Tuning of Decision Tree Classifier**
 
-    <img src="https://github.com/roywong96/termDepositSubscription/blob/master/images/dt_performance_tunned.png" width="30%" height="30%">
+    <img src="https://github.com/roywong96/termDepositSubscription/blob/master/images/dt_performance_tunned.png" width="40%" height="40%">
 
 - **Random Forest:** An emsemble that will be able to deal with the sparsity of data, I assume that it would be a good fit.
 
-    <img src="https://github.com/roywong96/termDepositSubscription/blob/master/images/rf_performance_nottunned.png" width="30%" height="30%">
+    <img src="https://github.com/roywong96/termDepositSubscription/blob/master/images/rf_performance_nottunned.png" width="40%" height="40%">
 
     - **Further Fine Tuning of Random Forest Classifier**
 
-    <img src="https://github.com/roywong96/termDepositSubscription/blob/master/images/rf_performance_tunned.png" width="30%" height="30%">
+    <img src="https://github.com/roywong96/termDepositSubscription/blob/master/images/rf_performance_tunned.png" width="40%" height="40%">
 
 # Model Performance
 
