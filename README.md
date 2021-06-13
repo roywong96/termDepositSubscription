@@ -49,7 +49,7 @@ Classifier I tried using Scikit-learn are:
 
     - **Further Fine Tuning of Decision Tree Classifier**
 
-    <img src="https://github.com/roywong96/termDepositSubscription/blob/master/images/dt_performance_tunned.png" width="40%" height="40%">
+    <img src="https://github.com/roywong96/termDepositSubscription/blob/master/images/dt_performance_tunned.png" width="45%" height="45%">
 
 - **Random Forest:** An emsemble that will be able to deal with the sparsity of data, I assume that it would be a good fit.
 
