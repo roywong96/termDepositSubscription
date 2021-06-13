@@ -30,22 +30,28 @@ I tried several different models and evaluated them using Area Under the Receive
 Classifier I tried using Scikit-learn are:
 
 - **K-Nearest Neighbors:** Lazy Learner as a baseline model
+
+<img src="https://github.com/roywong96/termDepositSubscription/blob/master/images/knn_performance.png" width="50" height="50">
+
 - **Gaussian Naive Bayes:** Probability Based Learner as features will be independent to one another.
+
+
+<img src="https://github.com/roywong96/termDepositSubscription/blob/master/images/nb_performance.png" width="50" height="50">
+
+
 - **Decision Tree:** Chosen with regards to the sparsity of the data and ideal for dealing with data containing multiple outliers.
+
+
+
 - **Random Forest:** An emsemble that will be able to deal with the sparsity of data, I assume that it would be a good fit.
 
 
 # Model Performance
 
-So far, The Random Forest Classifier far outperformed the other approaches on the test and validation sets.
+After performing hyperparameter tuning and further fine tuning on the models, The Random Forest Classifier far outperformed the other approaches on the test and validation sets.
 
 - **K-Nearest Neighbors:** ROC= 0.634
-![](https://github.com/roywong96/termDepositSubscription/blob/master/images/knn_performance.png){:height="50%" width="50%"}
-
 - **Gaussian Naive Bayes:** ROC= 0.710
-
-![](https://github.com/roywong96/termDepositSubscription/blob/master/images/nb_performance.png){:height="50%" width="50%"}
-
 - **Decision Tree:** ROC= 0.654
 - **Random Forest:** ROC= 0.739
 
