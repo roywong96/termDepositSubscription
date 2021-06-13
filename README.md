@@ -40,9 +40,12 @@ Classifier I tried using Scikit-learn are:
 So far, The Random Forest Classifier far outperformed the other approaches on the test and validation sets.
 
 - **K-Nearest Neighbors:** ROC= 0.634
-![](https://github.com/roywong96/termDepositSubscription/blob/master/images/knn_performance.png)
+![](https://github.com/roywong96/termDepositSubscription/blob/master/images/knn_performance.png){:height="50%" width="50%"}
 
 - **Gaussian Naive Bayes:** ROC= 0.710
+
+![](https://github.com/roywong96/termDepositSubscription/blob/master/images/nb_performance.png){:height="50%" width="50%"}
+
 - **Decision Tree:** ROC= 0.654
 - **Random Forest:** ROC= 0.739
 
