@@ -52,7 +52,7 @@ Classifier I tried using Scikit-learn are:
 
 **Further Fine Tuning of Random Forest Classifier**
 
-<img src="https://github.com/roywong96/termDepositSubscription/blob/master/images/dt_performance_tunned.png" width="30%" height="30%">
+<img src="https://github.com/roywong96/termDepositSubscription/blob/master/images/rf_performance_tunned.png" width="30%" height="30%">
 
 # Model Performance
 
