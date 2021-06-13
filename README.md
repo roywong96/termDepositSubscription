@@ -31,22 +31,28 @@ Classifier I tried using Scikit-learn are:
 
 - **K-Nearest Neighbors:** Lazy Learner as a baseline model
 
-
-
 <img src="https://github.com/roywong96/termDepositSubscription/blob/master/images/knn_performance.png" width="30%" height="30%">
 
 - **Gaussian Naive Bayes:** Probability Based Learner as features will be independent to one another.
-
 
 <img src="https://github.com/roywong96/termDepositSubscription/blob/master/images/nb_performance.png" width="30%" height="30%">
 
 
 - **Decision Tree:** Chosen with regards to the sparsity of the data and ideal for dealing with data containing multiple outliers.
 
+<img src="https://github.com/roywong96/termDepositSubscription/blob/master/images/dt_performance_nottunned.png" width="30%" height="30%">
 
+**Further Fine Tuning of Decision Tree Classifier**
+
+<img src="https://github.com/roywong96/termDepositSubscription/blob/master/images/dt_performance_tunned.png" width="30%" height="30%">
 
 - **Random Forest:** An emsemble that will be able to deal with the sparsity of data, I assume that it would be a good fit.
 
+<img src="https://github.com/roywong96/termDepositSubscription/blob/master/images/rf_performance_nottunned.png" width="30%" height="30%">
+
+**Further Fine Tuning of Random Forest Classifier**
+
+<img src="https://github.com/roywong96/termDepositSubscription/blob/master/images/dt_performance_tunned.png" width="30%" height="30%">
 
 # Model Performance
 
