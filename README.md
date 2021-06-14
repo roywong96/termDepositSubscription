@@ -17,9 +17,9 @@
 
 # Data Cleaning/Pre-processing
 
-- Duration column is removed as it highly affects the output target (e.g., if duration=0 then subscription='no')
-- pdays is clamped into a binary feature (i.e., 0 = not previously contacted; 1=contacted)
-- Descretizing the age into standard Age Group (i.e., Children (0-14); Teen (15-24); Adult (25-64); Senior (65+))
+- 'Duration' column is removed as it highly affects the output target (e.g., if duration=0 then subscription='no')
+- 'pdays' column is clamped into a binary feature (i.e., 0 = not previously contacted; 1=contacted)
+- Descretizing the 'age' into standard Age Group (i.e., Children (0-14); Teen (15-24); Adult (25-64); Senior (65+))
 - One-Hot Encoding performed on all the categorical features
 
 # Exploratory Data Analysis
