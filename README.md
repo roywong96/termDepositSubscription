@@ -34,7 +34,7 @@
 
 The next steps is model building strategy and evaluate them. I started off by scaling the features using MaxMinScaler from the Scikit-learn module, then split the dataset into 70% train and 30% test set. 
 
-I tried several different models and evaluated them using Area Under the Receiver Operating Characteristic (RUC) Curve. I chose the following metric because using the method as such will be robust to class imbalance.
+I tried several different models and evaluated them using Area Under the Receiver Operating Characteristic (ROC) Curve. I chose the following metric because using the method as such will be robust to class imbalance.
 
 Classifier I tried using Scikit-learn are:
 
