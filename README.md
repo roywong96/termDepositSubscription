@@ -101,7 +101,7 @@ For our project, the model is best evaluate with area under ROC curve due to pro
 
 # Feature Importance
 
-<img src="https://github.com/roywong96/termDepositSubscription/blob/master/images/important_features.png" width="40%" height="40%">
+<img src="https://github.com/roywong96/termDepositSubscription/blob/master/images/important_features.png" width="60%" height="60%">
 
 # Critique and Limitations
 
