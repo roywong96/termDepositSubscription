@@ -74,6 +74,7 @@ After performing hyperparameter tuning and further fine tuning on the models, Th
 
 # Feature Importance
 
+<img src="https://github.com/roywong96/termDepositSubscription/blob/master/images/important_features.png" width="40%" height="40%">
 
 
 # Conclusion
